@@ -1,5 +1,3 @@
-# GleamHRM [![StyleCI](https://github.styleci.io/repos/121434773/shield?branch=master)](https://github.styleci.io/repos/121434773) [![GitHub Issues](https://img.shields.io/github/issues/glowlogix/gleamhrm)](#github-issues) [![GPLv3 License](https://img.shields.io/github/license/glowlogix/gleamhrm.svg)](https://github.com/glowlogix/gleamhrm/blob/master/LICENSE)
-
 > Human Resource Management (HRM) System
 
 Laravel 5.6 version is used to create the HRM system. The purpose of this system is to effectively manage HR functions. Each module performs a separate function within the HRM that helps with information gathering or tracking. HRM modules can assist with:
@@ -35,7 +33,7 @@ After migration, run the database seeder:
     
 Once done migrating and seeding you will have default user:
 
-    email: admin@glowlogix.com
+    email: admin@admin.com
     password: admin   
 
 ## Docker installation
@@ -52,6 +50,3 @@ Once done migrating and seeding you will have default user:
 10. Add `127.0.0.1 hrm.local:8080` to your `/etc/hosts` file
 11. Access the site using `hrm.local:8080` in your browser
 
-## License
-
-The GleamHRM is open-sourced software licensed under the [GNU GPLv3](LICENSE).
